@@ -7,17 +7,25 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Rock Paper Scissors</h1>
-    <div id="score">Score: Player - 0, Computer - 0</div>
-    <div id="choose">Click on one to play!</div>
-    <div id="choices">
-      <button class="choice" onclick="play('rock')">Rock</button>
-      <button class="choice" onclick="play('paper')">Paper</button>
-      <button class="choice" onclick="play('scissors')">Scissors</button>
-    </div>
-    <div id="result"></div>
-  </div>
+  </header>
+  <main class="container">
+    <section id="score" aria-label="Current Score">
+      <p>Score: Player - 0, Computer - 0</p>
+    </section>
+    <section id="gameplay" aria-label="Game Choices">
+      <p id="choose">Click on one to play!</p>
+      <div id="choices">
+        <button class="choice" onclick="play('rock')">Rock</button>
+        <button class="choice" onclick="play('paper')">Paper</button>
+        <button class="choice" onclick="play('scissors')">Scissors</button>
+      </div>
+    </section>
+    <section id="result" aria-label="Game Result">
+      <!-- Results will be displayed here -->
+    </section>
+  </main>
   <script src="assets/css/js/script.js"></script>
 </body>
 </html>
