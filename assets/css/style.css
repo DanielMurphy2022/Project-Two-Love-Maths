@@ -10,6 +10,13 @@ body {
   
   h1 {
     color: #333;
+    font-size: 150px;
+    text-align: center;
+  }
+
+  body {
+    color: purple;
+    background-color: aqua;
   }
   
   button.choice {
@@ -25,6 +32,11 @@ body {
   
   button.choice:hover {
     background-color: #2980b9;
+  }
+
+  #choose {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
   
   #score {
