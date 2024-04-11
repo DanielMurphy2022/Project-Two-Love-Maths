@@ -33,19 +33,22 @@ body {
   button.choice:hover {
     background-color: #2980b9;
   }
-
-  #choose {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
   
-  #score {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  #result {
+  #choose, #score, #result {
     margin-top: 20px;
     font-size: 24px;
     color: #333;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+    button.choice {
+      padding: 9px 18px;
+      font-size: 1rem;
+    }
+    #choose, #score, #result {
+      font-size: 1rem;
+    }
   }
