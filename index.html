@@ -15,14 +15,17 @@
 </head>
 <body>
   <header>
+    <!-- This will be my main heading showing on the users end -->
     <h1>Rock Paper Scissors Game</h1>
   </header>
+  <!-- linked to CSS file so CSS can use this by doing .container -->
   <main class="container">
     <section id="score" aria-label="Current Score">
       <p>Score: Player - 0, Computer - 0</p>
     </section>
     <section id="gameplay" aria-label="Game Choices">
       <p id="choose">Click on one to play!</p>
+      <!-- Linked to CSS for styling -->
       <div id="choices">
         <button class="choice" onclick="play('rock')">Rock</button>
         <button class="choice" onclick="play('paper')">Paper</button>
@@ -33,6 +36,7 @@
       <!-- Results will be displayed here -->
     </section>
   </main>
+  <!-- Linked JS file so the game can work -->
   <script src="assets/css/js/script.js"></script>
 </body>
 </html>

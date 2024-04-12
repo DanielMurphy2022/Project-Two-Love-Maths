@@ -1,45 +1,46 @@
+/* Styling font */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
   }
-  
+  /* making the container take up the page */ 
   .container {
     text-align: center;
     margin-top: 50px;
   }
-  
+  /* Styling the main heading on the users end */
   h1 {
-    color: #333;
+    color: black;
     font-size: 150px;
     text-align: center;
   }
-
+  /* adding color to the bacckground */
   body {
     color: black;
     background-color: aqua;
   }
-  
+  /* making the buttons for rock, paper, scissors responsive and color */
   button.choice {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    background-color: #3498db;
+    padding: 15px 25px;
+    margin: 15px;
+    font-size: 18px;
+    background-color: blue;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
   }
-  
+  /* Making the button hover responsive */
   button.choice:hover {
-    background-color: #2980b9;
+    background-color: blue;
   }
-  
+  /* Making the # targeted responsive */
   #choose, #score, #result {
     margin-top: 20px;
     font-size: 24px;
     color: #333;
   }
-
+  /* Making bigger screens like tablets responsive */
   @media (max-width: 768px) {
     h1 {
       font-size: 3rem;
@@ -56,7 +57,7 @@ body {
       margin: 50px auto;
     }
   }
-
+  /* Making the phone screen size responsive */
   @media (max-width: 480px) {
     h1 {
       font-size: 1rem;
