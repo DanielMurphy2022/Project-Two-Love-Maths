@@ -1,39 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Love Maths
 
-Welcome,
+Rock Paper Scissors Game is a fun interative game which aims for any age group to enjoy and ave some fun. It has nice bright colors, easy to use and extremely easy to play all you need to do is click and play against the computer!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
+Its a game that consists of one page viewed by the user. It has 3 pages by the developer which are HTML, CSS and JavaScript. The user would only see the front end landing page which consists of the game, bright colors and easy to play game against the computer.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The landing page for the game is very easy, it shows the name, buttons to choose from rock, paper or sccissors. The page will also show the score if you win or lose, also showing if you tie with the computer. 
 
-## Codeanywhere Reminders
+Features Left to Implement
+None, I've done the features.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Testing
+While testing, I got so many bugs especialy with the sign up page. The site now works on many different screen sizes, used dev tools to help with this!
 
-`python3 -m http.server`
+Validator Testing
+W3C HTML Validator showed no errors.
+W3C CSS Validator showed no errors.
+JSHint JavaScript Validator showed no errors just warnings.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Unfixed Bugs
+My Favicon wont work with gitpod, it works on VS code on my laptop just not on gitpod. I left this as a comment, the files will not be accepted in favicon in assets folder just says error it originally worked but since I pushed it it hasn't worked.
 
-`http_server`
+Deployment
+The site was deployed to GitHub. Live site is here; https://danielmurphy2022.github.io/Project-Two-Love-Maths/
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Credits
+My site I used some external help, such as favicon from favicon.io since changing to gitpod though it hasn't worked. The code was taken directly from them. Huge thanks to the slack community as I wasn't aware of the gitpod change from codeanywhere a big shout out to Kenan for making me aware of this. Hude credit to the Code institute course as the detail in the modules were absolutely excellent preparing me for this project and made me understand JavaScript a lot more, the comparitive programming module gave me a lot of information because I was somehow overwhelmed thinking all programming would work but showed me there is some differences, as before I would have put some other language in if I couldn't get the code to work.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Content
+The content written by me was from my own doing, The favicon code is directly from them. I also had help with the JavaScript currently in college doing something similiar so my notes came in excellent for this.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Media
+There is no media, only the Favicon which wont work for me.
